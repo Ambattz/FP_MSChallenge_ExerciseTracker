@@ -1,0 +1,45 @@
+.ex-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.ex-container {
+  width: 100%;
+  height: 160px;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.name {
+  height: 100px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-wrapper {
+  width: 70%;
+}
+.operations {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.operations button {
+  background-color: rgb(238, 121, 85);
+  border-radius: 15px;
+  border: none;
+  width: 150px;
+  height: 35px;
+}
+label {
+  font-size: small;
+  background-color: blanchedalmond;
+}
